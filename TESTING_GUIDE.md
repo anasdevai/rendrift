@@ -45,7 +45,7 @@ Check `apps/processor/.env`:
 JWT_SECRET=supersecretfocuscastkey12345
 PORT=4001
 NODE_ENV=development
-OPENROUTER_API_KEY=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
+OPENROUTER_API_KEY=your api key
 OPENAI_BASE_URL=https://openrouter.ai/api/v1
 AGENT_SERVER_URL=http://localhost:8000
 DB_PATH=./db/focuscast.db
