@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Next.js
+.next/
+out/
+
+# Env & Credentials
+.env
+.env.local
+.env.*.local
+*.pem
+credentials.json
+google_credentials.json
+
+# Database
+*.db
+*.db-journal
+
+# Uploads & Temp
+apps/processor/uploads/raw/*
+apps/processor/uploads/processed/*
+!apps/processor/uploads/raw/.gitkeep
+!apps/processor/uploads/processed/.gitkeep
+apps/processor/agent/temp/
+apps/processor/agent/frames/
+apps/processor/agent/frames_agent/
+temp/
+*.mp4
+*.MOV
+*.webm
+
+# Debug & Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project files
+.vscode/
+.idea/
+.gemini/

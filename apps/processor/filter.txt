@@ -1,0 +1,3 @@
+[0:v]scale=1200:750[scaled];
+[scaled]perspective=x0=30:y0=20:x1=1170:y1=20:x2=0:y2=750:x3=1200:y3=750[persp];
+[persp]zoompan=z=1.3:x=iw/2-(iw/zoom/2):y=ih/2-(ih/zoom/2):d=1:s=1200x750:fps=30[out]
